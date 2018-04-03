@@ -54,7 +54,7 @@ export const AboutUs = (props) => {
                                                       <header>
                                                           <h3>OUR PRESIDENT</h3>
                                                       </header>
-                                                      <p>Kendyl Auten and is a mother of two boys ages 6 and 11 years-old. She is originally from Somerset, New Jersey and currently resides in South Brunswick, New Jersey. She is the youngest of seven siblings between New Jersey, Florida, and South Carolina. She is an Accounts Receivable Credit Coordinator role for an industrial packaging company located in Central Jersey. In her spare time she enjoys spending time with my family, shopping, travelling, listening to music, dancing, and most importantly helping others.</p>
+                                                      <p>Kendyl Auten is a mother of two boys ages 6 and 11 years-old. She is originally from Somerset, New Jersey and currently resides in South Brunswick, New Jersey. Kendyl is the youngest of seven siblings between New Jersey, Florida, and South Carolina. She is an Accounts Receivable Credit Coordinator role for an industrial packaging company located in Central Jersey. In her spare time she enjoys spending time with family, shopping, travelling, listening to music, dancing, and most importantly helping others.</p>
                                                       </section>
                                                       <section>
                                                       <a href="#" class="image featured"><img src="images/wecare.jpg" alt="" /></a>
