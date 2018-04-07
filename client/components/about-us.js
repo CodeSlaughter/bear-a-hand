@@ -13,26 +13,23 @@ export const AboutUs = (props) => {
     <div>
       <div id="page-wrapper">
                       <header id="header">
-                      <h1 id="logo"><NavLink to="/"><img style={{ height: 50}} src="/images/dlt.png" /></NavLink></h1>
+                      <h1 id="logo"><NavLink to="/"><img style={{ height: 45}} src="/images/dlt.png" /></NavLink></h1>
                       <nav id="nav">
                       <ul>
-                          <li className="current"><NavLink to="/">Welcome</NavLink></li>
-                          <li className="submenu">
-                              <a href="#">MENU</a>
-                              <ul>
-                                  <li><NavLink to="/services">Services</NavLink></li>
-                                  <li><NavLink to="/about-us">About Us</NavLink></li>
-                                  <li className="submenu">
-                                      <a href="#">Contact</a>
-                                      <ul>
-                                          <li><a href="#">Donate</a></li>
-                                          <li><a href="#">Volunteer</a></li>
-                                          <li><a href="#">Feedback</a></li>
-                                      </ul>
-                                  </li>
-                              </ul>
+                          <li className="current"><NavLink to="/about-us">About Us</NavLink></li>
+                          <li className="submenu"><NavLink to="/about-us">Services</NavLink>
+                            <ul>
+                                <li ><a href="/trainings">Trainings</a></li>
+                            </ul>
                           </li>
-                          <li><a href="#" class="button special">Donate</a></li>
+                          <li className="submenu"><NavLink to="/contact">Contact</NavLink>
+                            <ul>
+                                <li><a href="#">Donate</a></li>
+                                <li><a href="#">Volunteer</a></li>
+                                <li><a href="#">Feedback</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#" className="button special">Donate</a></li>
                       </ul>
                   </nav>
                       </header>
@@ -40,24 +37,24 @@ export const AboutUs = (props) => {
                  
                       <article id="main">
       
-                          <header class="special container">
-                              <span class="icon fa-black-tie"></span>
+                          <header className="special container">
+                              <span className="icon fa-black-tie"></span>
                               <h2><strong>About Us</strong></h2>
                               <p>Get to know the team.</p>
                           </header>
-                              <section class="wrapper style4 container">
-                                  <div class="row 150%">
-                                      <div class="8u 12u(narrower)">                                 
-                                              <div class="content">
+                              <section className="wrapper style4 container">
+                                  <div className="row 150%">
+                                      <div className="8u 12u(narrower)">                                 
+                                              <div className="content">
                                                   <section>
-                                                      <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+                                                      <a href="#" className="image featured"><img src="images/pic03.jpg" alt="" /></a>
                                                       <header>
                                                           <h3>OUR PRESIDENT</h3>
                                                       </header>
                                                       <p>Kendyl Auten is a mother of two boys ages 6 and 11 years-old. She is originally from Somerset, New Jersey and currently resides in South Brunswick, New Jersey. Kendyl is the youngest of seven siblings between New Jersey, Florida, and South Carolina. She is an Accounts Receivable Credit Coordinator role for an industrial packaging company located in Central Jersey. In her spare time she enjoys spending time with family, shopping, travelling, listening to music, dancing, and most importantly helping others.</p>
                                                       </section>
                                                       <section>
-                                                      <a href="#" class="image featured"><img src="images/wecare.jpg" alt="" /></a>
+                                                      <a href="#" className="image featured"><img src="images/wecare.jpg" alt="" /></a>
                                                       <header>
                                                           <h3>Our Objectives</h3>
                                                       </header>
@@ -72,10 +69,10 @@ export const AboutUs = (props) => {
                                               </div>
       
                                       </div>
-                                      <div class="4u 12u(narrower)">
+                                      <div className="4u 12u(narrower)">
       
                                          
-                                              <div class="sidebar">
+                                              <div className="sidebar">
                                                   <section>
                                                       <header>
                                                           <h3>EDUCATION</h3>
@@ -86,7 +83,7 @@ export const AboutUs = (props) => {
                                                   </section>
       
                                                   <section>
-                                                      <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+                                                      <a href="#" className="image featured"><img src="images/pic04.jpg" alt="" /></a>
                                                   </section>
                                               </div>
       
@@ -96,11 +93,11 @@ export const AboutUs = (props) => {
       
                       </article>    
                       <footer id="footer">
-                          <ul class="icons">
-                              <li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
-                              <li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+                          <ul className="icons">
+                              <li><a href="#" className="icon circle fa-twitter"><span className="label">Twitter</span></a></li>
+                              <li><a href="#" className="icon circle fa-facebook"><span className="label">Facebook</span></a></li>
                           </ul>
-                          <ul class="copyright">
+                          <ul className="copyright">
                               <li>&copy; Bear-A-Hand</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
                           </ul>    
                       </footer>

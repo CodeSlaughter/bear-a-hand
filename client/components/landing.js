@@ -13,28 +13,25 @@ export const Landing = (props) => {
     <div>
       <div id="page-wrapper">
 							<header id="header" className="alt">
-								<h1 id="logo"><NavLink to="index.html"><img style={{ height: 50}} src="/images/dlt.png" /></NavLink></h1>
+								<h1 id="logo"><NavLink to="/"><img style={{ height: 45}} src="/images/dlt.png" /></NavLink></h1>
 								<nav id="nav">
-									<ul>
-										<li className="current"><NavLink to="/">Welcome</NavLink></li>
-										<li className="submenu">
-											<a href="#">MENU</a>
-											<ul>
-												<li><NavLink to="/services">Services</NavLink></li>
-												<li><NavLink to="/about-us">About Us</NavLink></li>
-												<li className="submenu">
-													<a href="#">Contact</a>
-													<ul>
-														<li><a href="#">Donate</a></li>
-														<li><a href="#">Volunteer</a></li>
-														<li><a href="#">Feedback</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-                                        <li><a href="#" class="button special">Donate</a></li>
-									</ul>
-								</nav>
+								<ul>
+									<li><NavLink to="/about-us">About Us</NavLink></li>
+									<li className="submenu"><NavLink to="/about-us">Services</NavLink>
+									  <ul>
+										  <li ><a href="/trainings">Trainings</a></li>
+									  </ul>
+									</li>
+									<li className="submenu"><NavLink to="/contact">Contact</NavLink>
+									  <ul>
+										  <li><a href="#">Donate</a></li>
+										  <li><a href="#">Volunteer</a></li>
+										  <li><a href="#">Feedback</a></li>
+									  </ul>
+									</li>
+									<li><a href="#" className="button special">Donate</a></li>
+								</ul>
+							</nav>
 							</header>
 			
 					
@@ -109,70 +106,6 @@ export const Landing = (props) => {
 											</div>
 										</div>
 									</section>
-			
-									<section className="wrapper style3 container special">
-			
-										<header className="major">
-											<h2>Next look at this <strong>cool stuff</strong></h2>
-										</header>
-			
-										<div className="row">
-											<div className="6u 12u(narrower)">
-			
-												<section>
-													<a href="#" className="image featured"><img src="images/pic01.jpg" alt="" /></a>
-													<header>
-														<h3>A Really Fast Train</h3>
-													</header>
-													<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-												</section>
-			
-											</div>
-											<div className="6u 12u(narrower)">
-			
-												<section>
-													<a href="#" className="image featured"><img src="images/pic02.jpg" alt="" /></a>
-													<header>
-														<h3>An Airport Terminal</h3>
-													</header>
-													<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-												</section>
-			
-											</div>
-										</div>
-										<div className="row">
-											<div className="6u 12u(narrower)">
-			
-												<section>
-													<a href="#" className="image featured"><img src="images/pic03.jpg" alt="" /></a>
-													<header>
-														<h3>Hyperspace Travel</h3>
-													</header>
-													<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-												</section>
-			
-											</div>
-											<div className="6u 12u(narrower)">
-			
-												<section>
-													<a href="#" className="image featured"><img src="images/pic04.jpg" alt="" /></a>
-													<header>
-														<h3>And Another Train</h3>
-													</header>
-													<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-												</section>
-			
-											</div>
-										</div>
-			
-										<footer className="major">
-											<ul className="buttons">
-												<li><a href="#" className="button">See More</a></li>
-											</ul>
-										</footer>
-			
-									</section>
-			
 							</article>
 			
 		
