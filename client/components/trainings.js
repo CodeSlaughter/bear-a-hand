@@ -26,6 +26,7 @@ export const Trainings = (props) => {
                                     <li><a href="#">Donate</a></li>
                                     <li><a href="#">Volunteer</a></li>
                                     <li><a href="#">Feedback</a></li>
+                                    <li><a href="https://goo.gl/forms/GHTwnKtnFoyxwfj02" target="_blank">Apply</a></li>
                                 </ul>
                               </li>
                               <li><a href="#" className="button special">Donate</a></li>
