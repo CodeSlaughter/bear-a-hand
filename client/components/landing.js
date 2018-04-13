@@ -17,7 +17,7 @@ export const Landing = (props) => {
 								<nav id="nav">
 								<ul>
 									<li><NavLink to="/about-us">About Us</NavLink></li>
-									<li className="submenu"><NavLink to="/about-us">Services</NavLink>
+									<li className="submenu"><NavLink to="/services">Services</NavLink>
 									  <ul>
 										  <li ><a href="/trainings">Trainings</a></li>
 									  </ul>
