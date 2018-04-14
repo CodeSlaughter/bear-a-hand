@@ -8,6 +8,7 @@ import {Main,
         Login, 
         Signup, 
         UserHome, 
+        Donate,
         Landing, 
         AboutUs, 
         Services, 
@@ -39,6 +40,7 @@ class Routes extends Component {
             <Route path="/services" component={Services} />
             <Route path="/trainings" component={Trainings} />
             <Route path="/contact" component={Contact} />
+            <Route path="/donate" component={Donate} />
             {
               isLoggedIn &&
                 <Switch>

@@ -5,7 +5,7 @@ import {NavLink} from 'react-router-dom'
 /**
  * COMPONENT
  */
-export const PageNotFound = (props) => {
+export const Donate = (props) => {
   const {email} = props
 
   return (
@@ -16,7 +16,7 @@ export const PageNotFound = (props) => {
                           <nav id="nav">
                           <ul>
                               <li><NavLink to="/about-us">About Us</NavLink></li>
-                              <li className="submenu current"><NavLink to="/services">Services</NavLink>
+                              <li className="submenu"><NavLink to="/services">Services</NavLink>
                                 <ul>
                                     <li ><a href="/trainings">Trainings</a></li>
                                 </ul>
@@ -37,8 +37,8 @@ export const PageNotFound = (props) => {
                       
                                           <header className="special container">
                                               <span className="icon fa-exclamation"></span>
-                                              <h2><strong>Sorry!</strong></h2>
-                                              <p>Looks like this page not longer exists</p>
+                                              <h2><strong>Donate</strong></h2>
+                                              <p>Check back soon for more details on how you can donate.</p>
                                           </header>
                                       </article>
 
@@ -69,4 +69,4 @@ const mapState = (state) => {
   }
 }
 
-export default connect(mapState)(PageNotFound)
+export default connect(mapState)(Donate)

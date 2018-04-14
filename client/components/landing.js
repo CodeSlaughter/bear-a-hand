@@ -24,13 +24,12 @@ export const Landing = (props) => {
 									</li>
 									<li className="submenu"><NavLink to="/contact">Contact</NavLink>
 									  <ul>
-										  <li><a href="#">Donate</a></li>
 										  <li><a href="#">Volunteer</a></li>
 										  <li><a href="#">Feedback</a></li>
 										  <li><a href="https://goo.gl/forms/GHTwnKtnFoyxwfj02" target="_blank">Apply</a></li>
 									  </ul>
 									</li>
-									<li><a href="#" className="button special">Donate</a></li>
+									<li><a href="/donate" className="button special">Donate</a></li>
 								</ul>
 							</nav>
 							</header>
@@ -114,7 +113,7 @@ export const Landing = (props) => {
 			
 								<header>
 									<h2>Ready to do <strong>something</strong>?</h2>
-									<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
+									<p>Apply, volunteer, or donate today.</p>
 								</header>
 								<footer>
 									<ul className="buttons">
