@@ -39,7 +39,6 @@ export const Services = (props) => {
                               <p>Where things on the left ... accompany that on the right.</p>
                           </header>
                               <section className="wrapper style4 container">
-      
                                   <div className="row 150%">
                                       <div className="4u 12u(narrower)">
                                               <div className="sidebar">
