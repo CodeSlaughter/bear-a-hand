@@ -36,7 +36,7 @@ export const Services = (props) => {
                           <header className="special container">
                               <span className="icon fa-laptop"></span>
                               <h2><strong>Services</strong></h2>
-                              <p>Where things on the left ... accompany that on the right.</p>
+                              <p>Assistance offered</p>
                           </header>
                               <section className="wrapper style4 container">
                                   <div className="row 150%">
@@ -70,9 +70,20 @@ export const Services = (props) => {
                                                       <header>
                                                           <h3>Trainings to Offer</h3>
                                                       </header>
-                                                      <p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum massa. Morbi eu faucibus massa. Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam.</p>
-                                                      <p>Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam eget lobortis purus. Phasellus vitae tortor non est placerat tristique. Sed id sem et massa ornare pellentesque. Maecenas pharetra porta accumsan. </p>
-                                                      <p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus, non hendrerit ipsum arcu tristique est.</p>
+                                                      <p>Create personalize plans geared towards an
+                                                      individual’s needs;
+                                                      <br />Provide a hands-on approach from start to
+                                                      finish; 
+                                                      <br />Offer available resources, training, and the necessary
+                                                      tools; 
+                                                      <br />Work cohesively with local employers and staffing
+                                                      agencies for job recruitments; 
+                                                      <br />Network with local and state
+                                                      agencies on available housing programs and other assistance
+                                                      programs; 
+                                                      <br />Work with companies in the private sector for
+                                                      available services; and Participate in community outreach
+                                                      programs for volunteer services.</p>
                                                   </section>
                                               </div>
       

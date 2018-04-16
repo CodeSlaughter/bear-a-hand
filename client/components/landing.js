@@ -118,7 +118,7 @@ export const Landing = (props) => {
 								<footer>
 									<ul className="buttons">
 										<li><a href="/donate" className="button special">Donate</a></li>
-										<li><a href="https://goo.gl/forms/GHTwnKtnFoyxwfj02" className="button">Apply</a></li>
+										<li><a href="https://goo.gl/forms/GHTwnKtnFoyxwfj02" target="_blank" className="button">Apply</a></li>
 									</ul>
 								</footer>
 			
