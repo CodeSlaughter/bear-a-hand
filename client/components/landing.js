@@ -89,7 +89,7 @@ export const Landing = (props) => {
 													<header>
 														<h3>Our Mission</h3>
 													</header>
-													<p>To provide serviceable resources and genuine guidance to individuals in transition to establish life-changing goals.</p>
+													<p>To provide community resources and genuine guidance to individuals in transition and accomplish life-changing goals.</p>
 												</section>
 			
 											</div>
@@ -113,7 +113,7 @@ export const Landing = (props) => {
 			
 								<header>
 									<h2>Ready to do <strong>something</strong>?</h2>
-									<p>Apply, volunteer, or donate today.</p>
+									<p>Apply or donate today.</p>
 								</header>
 								<footer>
 									<ul className="buttons">

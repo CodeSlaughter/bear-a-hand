@@ -40,7 +40,7 @@ export const AboutUs = (props) => {
                     <header className="special container">
                         <span className="icon fa-black-tie"></span>
                         <h2><strong>About Us</strong></h2>
-                        <p>Get to know our president.</p>
+                        <p>Get To Know Our President</p>
                     </header>
                     <section className="wrapper style4 container">
                         <div className="row 150%">
@@ -49,46 +49,30 @@ export const AboutUs = (props) => {
                                     <section>
                                         <p><img src="images/hs.jpg" className="featured" style={{ height: 'auto', width: 300, marginLeft: 60 }} alt="headshot" /></p>
                                         <header>
-                                            <h3>OUR PRESIDENT</h3>
+                                            <h3><strong>About Our President</strong></h3>
                                         </header>
-                                        <p>My name is Kendyl Auten and I
-                                        am a mother of two boys ages 6
-                                        and 11 years-old. I am originally
-                                        from Somerset, New Jersey and
-                                        currently resides in South
-                                        Brunswick, New Jersey. I am the
-                                        youngest of seven siblings
-                                        between New Jersey, Florida,
-                                        and South Carolina. I am an
-                                        Accounts Receivable Credit
-                                        Coordinator role for an
-                                        industrial packaging company
-                                        located in Central Jersey. I enjoy
-                                        spending time with my family,
-                                        shopping, travelling, listening to
-                                        music, dancing, and most
-                                        importantly helping others.</p>
+                                        <p>My name is Kendyl Auten and I am a mother of two sons.  We currently reside in Central Jersey. I am the youngest of seven siblings between New Jersey, Florida, and South Carolina.  I have over 18 years of work experience with a broad industry background from hospitality, medical, moving and storage, forensic engineering, manufacturing goods, industrial packaging, and food retail.  I enjoy spending time with family and close friends, shopping, travelling, listening to music, dancing, and most importantly helping others. At a young age, I watched my Mom work two jobs between babysitting during the day and her full-time job in the evening.  I admired her for being able to manage both jobs successfully.  For a short period of time, my Mom began caring for children of a close family friend.  I admired her even more for caring for children other than her own.  In my early twenties, I started caring for my godson and taking him into my home as my own.  During undergrad, I interned at a residential community home for youths in Bordentown, New Jersey assisting them with resumes, open group sessions, and guidance for those transitioning out as young adults.  During the course and after graduate school, I would assist my friends and classmates with their resumes and provide advice based on my educational and work experience.  Over the years of watching my Mom care for children, assisting parents, working hard, and enjoy seeing the gratitude of helping others, I realized this is something that my Mom and I have in common.  Everyone needs a hand at some point in their lives.  My goal is to help as many people as I can so they can share their experience and tools to help others.  </p>
                                     </section>
                                     <section>
-                                        <a href="#" className="image featured"><img src="images/pic03.jpg" alt="" /></a>
+                                        <a href="#" className="image featured"><img src="images/success.jpg" alt="" /></a>
                                         <header>
-                                            <h3>HOW WE GOT STARTED</h3>
+                                            <h3><strong>HOW WE GOT STARTED</strong></h3>
                                         </header>
-                                        <p>After being laid-off multiple times, I found myself questioning whether or not I was a good employee, was my work not to their standards, what could I have done better, was my continued education all for nothing...many different thoughts ran through my mind.  During those transitional times, it was a very stressful and tough.  When requesting for assistance, I felt like a number.  There was no human  compassion in the process.  I was a single parent, unemployed, and had to figure how to make ends meet.  Your anxiety increases between applying for jobs, interviewing, and wishful thinking of that dream job emailing you back to say, "We want to make you an offer."  In the meantime, the clock is ticking for your unemployment to run out.  It just makes you want to scream. </p>
-                                        <p>Looking on the bright side of things, this process allowed me to really utilized my resources whether using my own skills and knowledge, taking on courses offered through unemployment, learning to navigate through several job boards, or networking with others.  The reason for starting Bear-A-Hand is to bring a human touch of compassion while helping individuals in transition with resumes, job searches, networking, and other requested services. </p>
+                                        <p>After being laid-off multiple times, I found myself bouncing around many questions and thoughts in my mind.  Was I a good employee? Was my work not to their standards?  What could I have done better?  Was my continued education all for nothing?  During those transitional times, it was a very stressful and tough. When requesting for assistance, I felt like a number. There was no human compassion in the process.  I was a single parent, unemployed, and had to figure how to make ends meet.  In addition to being stressed, your anxiety tends to increases between applying for jobs, interviewing, and wishful thinking of that dream job emailing you back to say, "We want to make you an offer." In the meantime, the clock is ticking for your unemployment to run out. It just makes you want to scream. </p>
+                                        <p>Looking on the bright side of things, this process allowed me to really utilize my resources whether using my skills and knowledge, taking on courses offered through unemployment, learning to navigate through several job boards, networking with others and continued to carry out my goal on helping others.  The reason for starting Bear-A-Hand is to bring a human touch of compassion while providing a hands-on approach with individuals in transition on resumes, job searches, networking, and other requested services.</p>
                                     </section>
                                     <section>
                                         <a href="#" className="image featured"><img src="images/wecare.jpg" alt="" /></a>
                                         <header>
-                                            <h3>Our Objectives</h3>
+                                            <h3><strong>Our Goals</strong></h3>
                                         </header>
-                                        <p>Create personalize plans geared towards an individual’s needs.
-                                                          <br />Provide a hands-on approach from start to finish.
-                                                          <br />Offer available resources, training, and the necessary tools.
-                                                          <br />Work cohesively with local employers and staffing agencies for job recruitments.
-                                                          <br />Network with local and state agencies on available housing programs and other assistance programs.
-                                                          <br />Work with companies in the private sector for available services.
-                                                          <br />Participate in community outreach programs for volunteer services.</p>
+                                        <ul style={{listStyleType: 'disc'}}>
+                                            <li>To help develop an individual’s future to gain control of their lives.</li>
+                                            <li>Improve one’s education and career development.</li>
+                                            <li>Enhance an individual’s skills set and qualification for employment.</li>
+                                            <li>To share knowledge and educate for a channel to success.</li>
+                                            <li>To inspire and motivate individual’s to be independent, self-sufficient, and build self-confidence.</li>
+                                        </ul>
                                     </section>
                                 </div>
 
@@ -99,22 +83,16 @@ export const AboutUs = (props) => {
                                 <div className="sidebar">
                                     <section>
                                         <header>
-                                            <h3>EDUCATION</h3>
+                                            <h3><strong>EDUCATION</strong></h3>
                                         </header>
                                         <p>Master of Business Administration (MBA) in Project Management, December 2012 DeVry University Keller Graduate School of Management, North Brunswick, NJ.</p>
                                         <p>Bachelor of Arts (BA) in Criminal Justice, August 2007 Kean University, Union, NJ</p>
                                         <p>AvTech Institute (Certificate) in Microsoft Office and Intro to Accounting, April 2016, South Plainfield, NJ</p>
                                     </section>
-
-                                    <section>
-                                        <a href="#" className="image featured"><img src="images/pic04.jpg" alt="" /></a>
-                                    </section>
                                 </div>
-
                             </div>
                         </div>
                     </section>
-
                 </article>
                 <footer id="footer">
                     <ul className="icons">

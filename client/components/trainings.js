@@ -47,7 +47,7 @@ export const Trainings = (props) => {
                                                               <header>
                                                                   <h3></h3>
                                                               </header>
-                                                              <ul>
+                                                              <ul style={{listStyleType: 'disc'}}>
                                                                 <li>Resumes, Cover Letters, and Thank you Letters</li>
                                                                 <li>Interviewing Skills</li>
                                                                 <li>Job Search</li>
